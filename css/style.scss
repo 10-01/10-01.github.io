@@ -1,0 +1,112 @@
+// New SCSS File
+
+//-------------Define company colors-------------//
+
+$tpp_gray: #8B8D8A;
+$tpp_darkgray: #4D4E4D;
+$tpp_red: #D4472F;
+$tpp_darkred: #88231B;
+$tpp_lightred:#f37a62;
+
+
+
+//-------------general themes-------------//
+
+
+
+//-------------Define the main sections-------------//
+
+#main_container{
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  
+  
+  #company_one_liner{
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size:1.9em;
+  text-align: center;
+  color: $tpp_darkgray;
+  
+  }
+  
+  .twitter_img{
+    width:50px;
+  }
+    #main_header{ 
+        
+    }
+    .logo_big{
+      width: 100%;
+    }
+    .signup_form{
+      margin-bottom:75px;
+      margin-top:20px;
+    }
+    
+}
+#explanation{
+  height: 600px;
+    margin-top: -19px;
+    background: url("../img/bg.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top:200px;    
+    .desc_header{
+      color:$tpp_lightred;
+      font-family: "proxima-nova",sans-serif;
+      font-style: normal;
+      font-weight:100;
+      font-size: 1.5em;
+      
+    }
+    .descriptor{
+      color: white;
+      font-family: "proxima-nova",sans-serif;
+      font-weight:200;
+    }
+    .desc_box{
+      font-family: "proxima-nova",sans-serif;
+      padding:50px;
+      
+    }
+  
+}
+
+.final_desc{
+  height:300px;
+  margin-top:160px;
+}
+
+#footer{
+  width: 100%;
+  height: 100px;
+  background-color: $tpp_lightred;
+  
+
+  #twitter_share_box{
+    margin: 10px;
+    margin-right: 0px;
+
+    background-color: $tpp_red;
+    padding-left: 3px;
+    text-align: center;
+    
+  }
+  a{
+    color:white;
+  }
+  .twitter_share{
+    width: 80px;
+    height: 80px;
+  }
+
+}
+
+#message{
+	text-align:center;
+}
