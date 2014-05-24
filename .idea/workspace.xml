@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="28eea803-1c3d-4b65-b366-40589ed93282" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hottubb.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -107,8 +105,8 @@
           <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.43569845" vertical-offset="965" max-vertical-offset="2464">
-                  <caret line="97" column="25" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.39269406" vertical-offset="1532" max-vertical-offset="2464">
+                  <caret line="134" column="48" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -133,8 +131,8 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.33333334" vertical-offset="1542" max-vertical-offset="9086">
-                  <caret line="131" column="8" selection-start-line="131" selection-start-column="3" selection-end-line="131" selection-end-column="8" />
+                <state vertical-scroll-proportion="0.3652968" vertical-offset="1542" max-vertical-offset="9086">
+                  <caret line="133" column="47" selection-start-line="133" selection-start-column="24" selection-end-line="133" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -676,12 +674,12 @@
       <workItem from="1398812044630" duration="2769000" />
       <workItem from="1400560551658" duration="44000" />
       <workItem from="1400904703643" duration="2043000" />
-      <workItem from="1400907013491" duration="159000" />
+      <workItem from="1400907013491" duration="223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17840000" />
+    <option name="totallyTimeSpent" value="17904000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1916" height="1058" extended-state="6" />
@@ -1027,16 +1025,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="1542" max-vertical-offset="9086">
-          <caret line="131" column="8" selection-start-line="131" selection-start-column="3" selection-end-line="131" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.3652968" vertical-offset="1542" max-vertical-offset="9086">
+          <caret line="133" column="47" selection-start-line="133" selection-start-column="24" selection-end-line="133" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43569845" vertical-offset="965" max-vertical-offset="2464">
-          <caret line="97" column="25" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.39269406" vertical-offset="1532" max-vertical-offset="2464">
+          <caret line="134" column="48" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
           <folding />
         </state>
       </provider>
