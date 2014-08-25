@@ -19,6 +19,7 @@
     <link rel="icon"
           type="image/png"
           href="css/images/favicon.ico">
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
     <script src="js/skel.min.js"></script>
     <script src="js/init.js"></script>
@@ -50,13 +51,26 @@
         }
 
         var images = [], x = -1;
-        images[0] = "css/images/iphone2.png";
-        images[1] = "css/images/iphone3.png";
-        images[2] = "css/images/iphone4.png";
-        images[3] = "css/images/iphone5.png";
-        images[4] = "css/images/iphone6.png";
-        images[5] = "css/images/iphone1.png";
+
+        if(window.screen.availHeight <900){
+            images[0] = "css/images/low_res/iphone2.png";
+            images[1] = "css/images/low_res/iphone3.png";
+            images[2] = "css/images/low_res/iphone4.png";
+            images[3] = "css/images/low_res/iphone5.png";
+            images[4] = "css/images/low_res/iphone6.png";
+            images[5] = "css/images/low_res/iphone1.png";
+        }
+        else{
+            images[0] = "css/images/iphone2.png";
+            images[1] = "css/images/iphone3.png";
+            images[2] = "css/images/iphone4.png";
+            images[3] = "css/images/iphone5.png";
+            images[4] = "css/images/iphone6.png";
+            images[5] = "css/images/iphone1.png";
+        }
+
     </script>
+
 </head>
 <body class="loading" >
 <div style="display: none;">
@@ -71,12 +85,36 @@
         <!-- Header -->
         <header  id="header">
             <div id="landing-image-holder">
-                <img id="img" alt="Hops Beer App Screenshots" src="css/images/iphone1.png">
-                <img id="hops_gray" itemprop="logo" src="css/images/hops_gray_word.png">
-                <h2>FIND YOUR BEER</h2>
-            </div>
+                <div id="left">
+                    <img id="img" alt="Hops Beer App Screenshots" src="css/images/iphone1.png">
+                    <img id="hops_gray" itemprop="logo" src="css/images/hops_gray_word.png">
+                    <h1 id="mobile_find">FIND YOUR BEER</h1>
+                    </div>
+                <div id="right">
+                    <div class="center">
+                    <img alt="Hops Beer Logo" id="right_image" src="css/images/hops_gray_word.png">
+                        </div>
+                    <h1 id="desktop_find">FIND YOUR BEER</h1>
+                    <p>Hops learns what beers you like and finds new beers you'll love. Hops’ ever-expanding database includes over 30,000 beers every corner of the world, each with personalized recommendations, so you can find the perfect local brew for you, no matter where you roam.</p>
 
-            <a href="https://itunes.apple.com/us/app/hops-find-your-beer/id888436618?ls=1&mt=8" style="border-bottom:0px;"><img style="width: 150px;margin-top: 40px;" src="css/images/apple.png"></a>
+
+                    <form role="form" class="center signup_form">
+
+                        <div class="col-xs-12 col-md-6 col-md-offset-2 signup">
+                            <div class="form-group ">
+                                <input type="email" class="form-control" id="inputEmail" placeholder="ENTER YOUR EMAIL HERE TO">
+                            </div>
+                        </div>
+                        <div class="col-xs-2 col-md-2">
+                            <button type="button" class="btn btn-default" id="signup_beta">GET BEER NEWS & HOPS UPDATES</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <p></p>
+            <div id="apple_image">
+                <a href="https://itunes.apple.com/us/app/hops-find-your-beer/id888436618?ls=1&mt=8" style="border-bottom:0px;"><img style="width: 150px;margin-top: 40px;" src="css/images/apple.png"></a>
+            </div>
             <nav>
                 <ul>
                     <li><a href="https://twitter.com/HopsBeerApp" target="_blank" itemprop="url" class="fa fa-twitter"><span>Twitter</span></a></li>
@@ -87,6 +125,19 @@
                     <li><a href="/support" target="_blank" itemprop="url" class="fa fa-question"><span>Support</span></a></li>
                 </ul>
             </nav>
+            <div id="mobile_hide">
+                <form role="form" class="center mobile_signup_form">
+
+                    <div class="col-xs-12 col-md-6 col-md-offset-2 signup">
+                        <div class="form-group ">
+                            <input type="email" class="form-control" id="mobile_inputEmail" placeholder="ENTER YOUR EMAIL HERE TO">
+                        </div>
+                    </div>
+                    <div class="col-xs-2 col-md-2">
+                        <button type="button" class="btn btn-default" id="mobile_signup_beta">GET BEER NEWS & HOPS UPDATES</button>
+                    </div>
+                </form>
+            </div>
 
             <!--<p>Hops learns what beers you like and finds new ones you'll love.</p>-->
         </header>
@@ -115,6 +166,6 @@
   ga('send', 'pageview');
 
 </script>
-	
+
 </body>
 </html>

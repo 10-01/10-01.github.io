@@ -11,17 +11,83 @@
 
 	body {
 		min-width: 320px;
+
 	}
 
 	body, input, select, textarea {
 		font-size: 11pt;
 	}
-#hops_gray{
-  display: inline-block;
-  width:70%;
+
+#landing-image-holder{
+  img{
+    width: 80%;
+  }
+  height: 100px;
+  width: 100%;
+  #hops_gray{
+    display: inline-block;
+    width:100%;
+  }
+  #mobile_find{
+    display: block;
+  }
+
+  #left{
+    width: 100%;
+  }
+}
+#right{
+  display:none;
 }
 #img{
   display:none;
+}
+#mobile_hide{
+  display:inline-block;
+  input{
+    margin-top: 50px;
+    max-width: 300px;
+    //            color: black;
+    font-size: 1em;
+    height: 50px;
+    border: none;
+
+    ::-webkit-input-placeholder { /* WebKit browsers */
+      color:    black;
+    }
+
+    width: 100%;
+
+  }
+  button{
+    max-width: 300px;
+    width: 100%;
+    border: 0 none;
+    border-radius: 2px 2px 2px 2px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 7px 10px;
+    text-transform: none;
+    transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    text-align: center; /* DELETE WHEN WIDTH AUTO */
+
+    background: none repeat scroll 0 0 #FF6E50;
+    color: white;
+    &:hover {
+      background: none repeat scroll 0 0 lightgray;
+      color: white;
+    }
+
+  }
 }
 
 
